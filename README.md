@@ -18,8 +18,6 @@
 
 **2022/11/14 更新说明**：因为发现还有人用所以就稍微更新了一下，但没有发布正式版。主要内容是修复 bug 和移除一些不必要的功能，同时替换了 Alertify，使用 [Toaster](https://github.com/BigCoke233/toaster.js)
 
-如果你感兴趣的话，可以支持一下我的[新主题 Matcha](https://github.com/BigCoke233/matcha)。
-
 ---
 
 ## 🎨 特色
@@ -47,10 +45,6 @@
 - 灵活的友情链接功能
 - 方便排版的短代码
 - 后台设置备份
-
-### 预览
-
-[作者博客](https://guhub.cn/) | [Miracles 常用页面元素示例](https://guhub.cn/miracles-content-style-demo.html)
 
 ## 🚀 使用
 
