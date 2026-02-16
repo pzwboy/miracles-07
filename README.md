@@ -184,18 +184,10 @@ $ git clone https://github.com/BigCoke233/miracles.git
 
 ## 🔮 相关
 
-演示站点：~~[我的博客](https://guhub.cn)~~（博客是第二代版本）  
 介绍文章：[Miracles —— 生为奇迹](https://guhub.cn/p/miracles.html)  
 说明文档：[Wiki.md](docs/wiki.md) | [Notion(被墙了,故停止维护)](https://www.notion.so/eltrac/c7c631e21b3345caa2a09bd2fb5dd4b2)   
 更新日志：[change-log.md](docs/change-log.md)  
 侵权网站：[black-list.md](docs/black-list.md)
-
-## 🎁 捐助
-
-你可以通过[爱发电](https://afdian.net/@Eltrac)向我投食，~~用金钱催更~~；或是在 [Open Collective](https://opencollective.com/miracles) 上为 Miracles 进行捐献  
-又或者是用支付宝扫码支付，感谢投食，~~据说砸得越多更新越快~~~
-
-<img src="alipay.png" width="70%">
 
 ---
 
