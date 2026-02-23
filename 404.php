@@ -1,5 +1,5 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('includes/head.php');
+$this->need('includes/head-404.php');
 $this->need('includes/header.php');
 ?>
     <main class="main-container container" role="main">
