@@ -186,7 +186,7 @@ class Utils
      * 缩略图
      */
     public static function postBanner($post){
-		if($post->fields->banner && $post->fields->banner=!''): 
+		if($post->fields->banner && $post->fields->banner != ''):
 			$banner = $post->fields->banner; 
 		else: 
 			if($GLOBALS['miraclesOptions_randomBanner']==''){
