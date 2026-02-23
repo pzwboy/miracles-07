@@ -33,7 +33,7 @@ $GLOBALS['commentListTexts'] = array(
 	"commentHidden" => "博主已关闭本页面的评论显示，您评论后将不会看到您的评论内容",
 	"commentClosed" => "博主已关闭本页面的评论功能",
 	"commentWaiting" => "您的评论正在等待审核！",
-	"commentStatus" => "登陆身份：",
+	"commentStatus" => "登录身份：",
 	"commentLogout" => "登出"
 );
 //页脚
@@ -47,8 +47,8 @@ $GLOBALS['footerTexts'] = array(
 );
 //页眉
 $GLOBALS['headerTexts'] = array(
-    "loginAlready" => "你已经登陆了",
-	"loginAlreadyInfo" => "不过很乐意再次见到 %s～",
+    "loginAlready" => "你已经登录了",
+	"loginAlreadyInfo" => "不过很乐意再次见到 %s 呢～",
 	"loginAdminEntrance" => "进入后台",
 	"loginTitle" => "登录后台",
 	"loginUsername" => "请输入用户名",
