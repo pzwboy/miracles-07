@@ -1,7 +1,7 @@
 <?php
 //語言包信息
 $GLOBALS['langInfo'] = array(
-    "name" => "簡體中文",
+    "name" => "繁體中文",
     "author" => "Eltrac",
     "last_update" => "2020\/5\/3"
 );
@@ -27,13 +27,13 @@ $GLOBALS['commentFormTexts'] = array(
 );
 //評論列表
 $GLOBALS['commentListTexts'] = array(
-    "byAuthor" => "博主",
+    "byAuthor" => "部落客",
     "commentNum" => "已有 %s 條評論",
     "commentNumNone" => "暫無評論",
-    "commentHidden" => "博主已關閉本頁面的評論顯示，您評論後將不會看到您的評論內容",
-    "commentClosed" => "博主已關閉本頁面的評論功能",
+    "commentHidden" => "部落客已關閉本頁面的評論顯示，您評論後將不會看到您的評論內容",
+    "commentClosed" => "部落客已關閉本頁面的評論功能",
     "commentWaiting" => "您的評論正在等待審核！",
-	"commentStatus" => "登陸身份：",
+	"commentStatus" => "登錄身份：",
 	"commentLogout" => "登出"
 );
 //頁腳
@@ -47,8 +47,8 @@ $GLOBALS['footerTexts'] = array(
 );
 //頁眉
 $GLOBALS['headerTexts'] = array(
-    "loginAlready" => "你已經登陸了",
-    "loginAlreadyInfo" => "不過康納很樂意再次見到 %s 呢～",
+    "loginAlready" => "你已經登錄了",
+    "loginAlreadyInfo" => "不過很樂意再次見到 %s 呢～",
     "loginAdminEntrance" => "進入後台",
     "loginTitle" => "登錄後台",
     "loginUsername" => "請輸入用戶名",

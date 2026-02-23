@@ -22,17 +22,17 @@ $GLOBALS['commentFormTexts'] = array(
     "nameInput" => "你叫啥名啊*",
 	"emailInput" => "你的邮箱在哪哇*",
 	"urlInput" => "http(s):\/\/",
-	"submit" => "发粗去",
+	"submit" => "提！交！",
 	"submitLoading" => "在发了在发了"
 );
 //评论列表
 $GLOBALS['commentListTexts'] = array(
-    "byAuthor" => "傻子",
-	"commentNum" => "%s 条咸鱼躺在这",
-	"commentNumNone" => "连一条咸鱼都没有",
+    "byAuthor" => "博主大人",
+	"commentNum" => "%s 条评论在这呢~",
+	"commentNumNone" => "连……连一条评论都没有",
 	"commentHidden" => "评论列表被博主吃了！你看不到评论了！",
 	"commentClosed" => "评论功能被博主吃了！你不能评论了！",
-	"commentWaiting" => "博主正在检查你有没有 ghs",
+	"commentWaiting" => "请稍等~博主正在检查你正不正常啊~",
 	"commentStatus" => "你素 ",
 	"commentLogout" => "我不做人了！"
 );
@@ -47,13 +47,13 @@ $GLOBALS['footerTexts'] = array(
 );
 //页眉
 $GLOBALS['headerTexts'] = array(
-    "loginAlready" => "登陆了，快爪巴",
-	"loginAlreadyInfo" => "你素 %s！奶思吐蜜特由",
-	"loginAdminEntrance" => "去后宫",
+    "loginAlready" => "快去登录呢~",
+	"loginAlreadyInfo" => "你素 %s！奶思吐蜜特由！",
+	"loginAdminEntrance" => "去后台康康？",
 	"loginTitle" => "快点进来",
 	"loginUsername" => "你哒名字",
 	"loginPassword" => "密码！我不会看的 qwq",
-	"loginSubmit" => "爪巴进去",
+	"loginSubmit" => "提交了哦~",
 	"navTitle" => "要去哪里",
 	"drawerHome" => "回家"
 );
@@ -75,19 +75,19 @@ $GLOBALS['archivesTitles'] = array(
 );
 //关于页面
 $GLOBALS['aboutPageTexts'] = array(
-    "aboutShareGithub" => "GayHub",
-	"aboutShareQQ" => "疼讯扣扣",
-	"aboutShareB" => "某破站",
-	"aboutShareEmail" => "是邮箱呢！"
+    "aboutShareGithub" => "Git滴大本营",
+	"aboutShareQQ" => "藤子扣扣",
+	"aboutShareB" => "小破站",
+	"aboutShareEmail" => "是你吗优香！"
 );
 //说说页面
 $GLOBALS['sayingPageTexts'] = array(
     "sayingPlaceholder" => "嘤嘤嘤 QAQ",
-	"sayingSubmit" => "发粗去"
+	"sayingSubmit" => "提！交！"
 );
 //其他
 $GLOBALS['otherTexts'] = array(
 	"copyrightAlertTitle" => "水文也有版权！",
 	"copyrightAlert" => "文章内容若未经过特别声明均为原创内容，转载需要注明原文作者和本文的链接：%s。原文中的任何内容不允许转载者进行修改、演绎以及一些商业用途，不尊重版权的憨憨会被大灰狼次掉。",
-	"goTop" => "爬到上面"
+	"goTop" => "冲！芜湖~"
 );
