@@ -32,21 +32,27 @@ $this->need('includes/header.php');
 
 		  <h2><?php gtecho('archivePageTexts','archivePostTitle'); ?></h2>
 		  <ul class="archives-list"><?php
+      $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($articles);
       $archives = Contents::archives($this);
       $number = 0;
+	  $permalinkMap = array();
+	  while($articles->next()) {
+	  $permalinkMap[$articles->created] = $articles->permalink;
+	  }
       foreach($archives as $year => $posts) {
        $detailsOpen = ($number === 0) ? ' open' : NULL;
        echo '<details'.$detailsOpen.'>';
        echo '<summary>'.$year.' '.gt('archivePageTexts','archiveTimeYear').'<small class="archives-count">'.gta('archivePageTexts','archiveYearTotal',count($posts)).'</small></summary>';
         foreach($posts as $created => $post) {
-         echo '<li><a href="'.$post['permalink'].'" class="no-line">
-          <span class="archives-date">'.date('m-d', $created).'</span>
-          '.$post['title'].'
-        </a></li>';
+        $permalink = isset($permalinkMap[$created]) ? $permalinkMap[$created] : '#'?>
+	  <li><a href="<?php echo $permalink; ?>" class="no-line">
+          <span class="archives-date"><?php echo date('m-d', $created); ?></span>
+          <?php echo $post['title']; ?>
+        </a></li><?php
         }
-       echo '</details>';
-       $number++;
-      }?>
+        echo '</details>';
+        $number++;
+        }?>
 		  </ul>
 		</div>
 	  </div>

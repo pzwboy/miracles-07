@@ -1,8 +1,10 @@
 基于Typecho主题`Miracles`v1.6.0（发行版）
 
-原作者为[BigCoke233](https://github.com/BigCoke233)
+原作者为[Eltrac（BigCoke233）](https://github.com/BigCoke233)
 
-为了自用，改/删了一点东西。
+改/删了一点东西，修了些bug
+
+版本号不会动了
 
 ## 🚀 使用
 

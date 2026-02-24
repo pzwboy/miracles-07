@@ -1,11 +1,12 @@
 <?php
 /**
+ * <a href="https://github.com/pzwboy/miracles-07">Miracles-07</a>
  * Born to be the Miracles. 生为奇迹
  * 作者：<a href="https://guhub.cn">Eltrac</a> | 帮助文档：<a href="https://github.com/BigCoke233/miracles/blob/master/docs/wiki.md">Wiki</a>
  * 
  * @package     Miracles
  * @author      Eltrac
- * @version     1.6.0
+ * @version     1.6.0-07
  * @link        https://guhub.cn
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;

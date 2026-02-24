@@ -1,5 +1,5 @@
 (function($){
-	var api = "https://api.github.com/repos/BigCoke233/miracles/releases";
+	var api = "https://api.github.com/repos/pzwboy/miracles-07/releases";
 	$.ajax({
       url: api,
       type: "GET",
