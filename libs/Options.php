@@ -53,7 +53,6 @@ function themeConfig($form) {
     $ver = themeVersion();
     $themeDir = "/usr/themes/Miracles/";
 	echo '<link rel="stylesheet" href="'.$themeDir.'assets/css/setting.miracles.css">
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300|Noto+Serif+SC:300&display=swap" rel="stylesheet">
 	<script>var version = "'. $ver .'";</script>
 	<script src="'.$themeDir.'assets/js/jquery.js"></script>
 	<script src="'.$themeDir.'assets/js/update.miracles.js"></script>';

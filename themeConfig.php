@@ -15,7 +15,7 @@ $GLOBALS['miraclesLang'] = 'zh-cn'; //在这里写入语言文件的名字（如
 //主题字体 CDN
 $GLOBALS['miraclesFontCDN'] = array(
     'if' => 'on', //是否开启字体 CDN（使用思源宋体/黑体）
-    'cdn' => 'google_font' //默认 Google Font，可选项：google_font / font_lolinet，或者直接输入字体文件 url
+    'cdn' => 'local_font' //默认本地 ，可选项：google_font（Google Font） / font_lolinet（loli.net） / local_font（本地），或者直接输入字体文件 url
 );
 
 /* 文章缩略图 */

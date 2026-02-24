@@ -50,6 +50,8 @@ if($GLOBALS['miraclesIfCompressHTML']=='on') ob_start(); //ob 截取开始 ?>
             $theme_font_url = "https://fonts.googleapis.com/css?family=Noto+Sans+SC:300|Noto+Serif+SC&display=swap";
         elseif($GLOBALS['miraclesFontCDN']['cdn']=='font_lolinet'):
             $theme_font_url = "https://fonts.loli.net/css?family=Noto+Sans+SC:300|Noto+Serif+SC&display=swap";
+        elseif($GLOBALS['miraclesFontCDN']['cdn']=='local_font'):
+            $theme_font_url = "/usr/themes/Miracles/assets/noto-sans-sc/result.css";
         else:
             $theme_font_url = $GLOBALS['miraclesFontCDN']['cdn'];
         endif; ?>
